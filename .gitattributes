@@ -1,0 +1,13 @@
+# Normalise line endings. Everything here is Node/web tooling and CI runs on
+# Linux, so LF in the repository and on checkout keeps Windows and Linux
+# contributors producing identical diffs.
+* text=auto eol=lf
+
+# Screenshots must never be line-ending converted.
+*.png binary
+
+# Keep generated lockfile noise out of diffs and reviews.
+package-lock.json -diff linguist-generated
+
+# The docs site is documentation, not the project's language.
+docs/** linguist-documentation

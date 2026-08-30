@@ -1,0 +1,219 @@
+{
+  "$comment": "PLACEHOLDER DATA. Every route below is invented for the prototype demo and must be walked and signed off by facilities/front-desk staff before any real visitor sees it. See README.md > Route catalog.",
+  "version": "2026-08-16",
+  "routes": [
+    {
+      "id": "lobby-imaging",
+      "origin": "Main Lobby",
+      "destination": "Imaging",
+      "aliases": ["radiology", "x-ray", "xray", "imaging department", "ct scan", "ultrasound"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take Elevator B to Floor 2.",
+        "Imaging check-in is on your right."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Imaging check-in"]
+    },
+    {
+      "id": "lobby-mri",
+      "origin": "Main Lobby",
+      "destination": "MRI",
+      "aliases": ["magnetic resonance", "mri suite", "mri scan"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take Elevator B to Floor 2.",
+        "Pass the Imaging check-in desk and continue to the end of the corridor.",
+        "MRI reception is through the double doors marked MRI Suite."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Imaging check-in", "MRI Suite doors"]
+    },
+    {
+      "id": "lobby-lab",
+      "origin": "Main Lobby",
+      "destination": "Lab and Blood Draw",
+      "aliases": ["lab", "laboratory", "blood draw", "phlebotomy", "blood work", "bloodwork", "blood test"],
+      "steps": [
+        "Walk past the Information Desk and keep going straight.",
+        "Continue past the gift shop on your left.",
+        "Turn right at the green wayfinding sign for Outpatient Services.",
+        "Lab check-in is the first window on your left. Take a number from the kiosk."
+      ],
+      "landmarks": ["Information Desk", "Gift shop", "Green wayfinding sign", "Lab check-in window", "Number kiosk"]
+    },
+    {
+      "id": "lobby-pharmacy",
+      "origin": "Main Lobby",
+      "destination": "Outpatient Pharmacy",
+      "aliases": ["pharmacy", "chemist", "prescription pickup", "drug store"],
+      "steps": [
+        "Walk past the Information Desk and keep going straight.",
+        "Continue past the gift shop on your left.",
+        "The Outpatient Pharmacy counter is straight ahead, just before the north exit doors."
+      ],
+      "landmarks": ["Information Desk", "Gift shop", "Pharmacy counter", "North exit doors"]
+    },
+    {
+      "id": "lobby-cardiology",
+      "origin": "Main Lobby",
+      "destination": "Cardiology",
+      "aliases": ["cardiology", "heart clinic", "heart center", "cardiac", "echo", "ekg", "stress test"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take Elevator B to Floor 3.",
+        "Turn right out of the elevator and follow the corridor to the end.",
+        "Cardiology reception is behind the glass doors."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Cardiology glass doors"]
+    },
+    {
+      "id": "lobby-preop",
+      "origin": "Main Lobby",
+      "destination": "Pre-Op and Surgery Check-In",
+      "aliases": ["pre-op", "preop", "pre op", "surgery check in", "surgery", "same day surgery", "operating"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take Elevator B to Floor 3.",
+        "Turn left out of the elevator toward the Surgical Waiting Room.",
+        "Surgery Check-In is the desk directly inside the Surgical Waiting Room."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Surgical Waiting Room", "Surgery Check-In desk"]
+    },
+    {
+      "id": "lobby-oncology",
+      "origin": "Main Lobby",
+      "destination": "Oncology Infusion Center",
+      "aliases": ["oncology", "infusion", "infusion center", "chemotherapy suite", "cancer center"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take Elevator B to Floor 4.",
+        "Turn right out of the elevator and follow the purple floor line.",
+        "The Infusion Center reception is at the end of the purple line."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Purple floor line", "Infusion Center reception"]
+    },
+    {
+      "id": "lobby-pediatrics",
+      "origin": "Main Lobby",
+      "destination": "Pediatrics Clinic",
+      "aliases": ["pediatrics", "paediatrics", "children's clinic", "childrens clinic", "kids clinic", "peds"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take Elevator B to Floor 4.",
+        "Turn left out of the elevator toward the animal wall paintings.",
+        "The Pediatrics Clinic desk is past the play area on your left."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Animal wall paintings", "Play area", "Pediatrics Clinic desk"]
+    },
+    {
+      "id": "lobby-physical-therapy",
+      "origin": "Main Lobby",
+      "destination": "Physical Therapy",
+      "aliases": ["physical therapy", "physiotherapy", "physio", "pt", "rehab", "rehabilitation"],
+      "steps": [
+        "Walk past the Information Desk and keep going straight.",
+        "Turn right at the green wayfinding sign for Outpatient Services.",
+        "Continue past the Lab check-in window to the end of the hall.",
+        "Take the ramp down one level to the Rehabilitation Wing.",
+        "Physical Therapy reception is the first desk at the bottom of the ramp."
+      ],
+      "landmarks": ["Information Desk", "Green wayfinding sign", "Lab check-in window", "Ramp", "Rehabilitation Wing", "Physical Therapy reception"]
+    },
+    {
+      "id": "lobby-ophthalmology",
+      "origin": "Main Lobby",
+      "destination": "Ophthalmology",
+      "aliases": ["ophthalmology", "eye clinic", "eye doctor", "optometry", "vision clinic"],
+      "steps": [
+        "Walk past the Information Desk and keep going straight.",
+        "Turn right at the green wayfinding sign for Outpatient Services.",
+        "Take Elevator C, next to the Lab check-in window, to Floor 2.",
+        "Ophthalmology reception is directly across from the elevator."
+      ],
+      "landmarks": ["Information Desk", "Green wayfinding sign", "Lab check-in window", "Elevator C", "Ophthalmology reception"]
+    },
+    {
+      "id": "lobby-ed-registration",
+      "origin": "Main Lobby",
+      "destination": "Emergency Department Registration",
+      "aliases": ["emergency department", "emergency room", "er", "ed", "emergency registration", "a and e"],
+      "steps": [
+        "Turn around and go back out the main entrance doors.",
+        "Follow the covered walkway to your right, along the front of the building.",
+        "The Emergency entrance is the second set of doors, under the red EMERGENCY sign.",
+        "Emergency Registration is the first desk inside."
+      ],
+      "landmarks": ["Main entrance doors", "Covered walkway", "Red EMERGENCY sign", "Emergency Registration desk"]
+    },
+    {
+      "id": "lobby-cafeteria",
+      "origin": "Main Lobby",
+      "destination": "Cafeteria",
+      "aliases": ["cafeteria", "canteen", "food", "dining", "lunch", "coffee shop", "cafe"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Take the staircase beside Elevator B down one level to Floor B1.",
+        "The Cafeteria entrance is straight ahead at the bottom of the stairs."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Staircase", "Cafeteria entrance"]
+    },
+    {
+      "id": "lobby-chapel",
+      "origin": "Main Lobby",
+      "destination": "Chapel and Quiet Room",
+      "aliases": ["chapel", "quiet room", "prayer room", "meditation room", "spiritual care"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn left at the blue mural.",
+        "Walk past Elevator B without getting in, and continue to the wooden doors at the end of the hall.",
+        "The Chapel and Quiet Room are through the wooden doors."
+      ],
+      "landmarks": ["Information Desk", "Blue mural", "Elevator B", "Wooden doors", "Chapel"]
+    },
+    {
+      "id": "lobby-billing",
+      "origin": "Main Lobby",
+      "destination": "Patient Billing Office",
+      "aliases": ["billing", "billing office", "patient accounts", "cashier", "finance office", "pay a bill"],
+      "steps": [
+        "Walk past the Information Desk and keep going straight.",
+        "Continue past the gift shop on your left.",
+        "Turn left just before the north exit doors.",
+        "The Patient Billing Office is the second door on your right."
+      ],
+      "landmarks": ["Information Desk", "Gift shop", "North exit doors", "Patient Billing Office"]
+    },
+    {
+      "id": "lobby-medical-records",
+      "origin": "Main Lobby",
+      "destination": "Health Information and Medical Records",
+      "aliases": ["medical records", "health information", "records office", "him", "release of information"],
+      "steps": [
+        "Walk past the Information Desk and keep going straight.",
+        "Continue past the gift shop on your left.",
+        "Turn left just before the north exit doors.",
+        "Walk past the Patient Billing Office to the end of the corridor.",
+        "Health Information and Medical Records is the last door on your left."
+      ],
+      "landmarks": ["Information Desk", "Gift shop", "North exit doors", "Patient Billing Office", "Medical Records door"]
+    },
+    {
+      "id": "lobby-admissions",
+      "origin": "Main Lobby",
+      "destination": "Admissions",
+      "aliases": ["admissions", "admitting", "inpatient admitting", "check in for admission"],
+      "steps": [
+        "Walk past the Information Desk.",
+        "Turn right immediately after the Information Desk, toward the seating area.",
+        "The Admissions desk is on the far side of the seating area, under the Admissions sign."
+      ],
+      "landmarks": ["Information Desk", "Seating area", "Admissions sign", "Admissions desk"]
+    }
+  ]
+}

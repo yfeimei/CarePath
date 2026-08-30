@@ -1,0 +1,26 @@
+node_modules/
+.next/
+out/
+build/
+
+.env
+.env.local
+.env*.local
+
+*.tsbuildinfo
+next-env.d.ts
+
+.DS_Store
+*.log
+
+# Machine-local editor/agent settings
+.claude/settings.local.json
+.vscode/
+.idea/
+
+# Scratch files from scripts/screenshots.mjs iterations
+*.tmp.*
+
+# Personal deploy notes — contain local machine paths, not for the public repo.
+# Delete this line if you'd rather publish them.
+Emily-deploy.txt

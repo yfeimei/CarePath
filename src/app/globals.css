@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+/*
+ * Visitors read this on a phone, often older, often without their glasses, in a
+ * bright lobby. Base size is 18px and every foreground/background pair here
+ * clears WCAG AA at normal text size.
+ */
+@theme {
+  --color-ink: #10171f;
+  --color-muted: #4a5568;
+  --color-line: #d3dae3;
+  --color-page: #ffffff;
+  --color-panel: #f4f6f9;
+  --color-brand: #0b4f8a;
+  --color-brand-dark: #08395f;
+  --color-alert: #8a1c1c;
+  --color-alert-tint: #fdf0f0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Keyboard focus must stay obvious for staff working entirely by keyboard. */
+:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 2px;
+}
