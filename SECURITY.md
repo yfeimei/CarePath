@@ -24,7 +24,7 @@ are accepted properties of a prototype, not undiscovered bugs:
   reverse proxy.
 - HTTPS is not enforced at the application layer.
 
-A report that one of these is exploitable *in a specific way we haven't
+A report that one of these is exploitable *in a specific way I haven't
 documented* is still welcome — it is the specifics that are useful.
 
 ## What is in scope
