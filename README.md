@@ -4,9 +4,6 @@ Turns a receptionist's spoken directions into a temporary, phone-friendly route
 for a hospital visitor. No download, login, patient lookup, location tracking,
 or visitor profile.
 
-Implementation of [`my-doc/carePath-design.txt`](my-doc/carePath-design.txt), at
-the one-day prototype scope.
-
 > **Prototype — not for clinical use.** Every route in this repository is
 > invented, the front-desk number is fictional, and the lookup endpoint is
 > unauthenticated. Read [`NOTICE.md`](NOTICE.md) before pointing this at anyone
